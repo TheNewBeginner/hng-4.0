@@ -1,0 +1,68 @@
+body {
+	    font-family: 'Cabin', sans-serif;
+	    padding: 0;
+	    margin: 0;
+}
+
+.overall_header {
+	position: absolute;
+	background: url("../img/hng.jpg") no-repeat center fixed;
+   -webkit-background-size:cover;
+   -moz-background-size:cover;
+   -o-background-size:cover;
+    min-height: 100vh;
+    width: 100vw;
+    height: 100%;
+}
+
+.black_holder {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background-color: #000;
+	transform: translate(-50%, -50%);
+	height: 400px;
+	width: 400px;
+	text-align: center;
+	border-radius: 2px;
+	margin: 0 auto;x`
+	
+}
+
+.name {
+	color: #C3C3C3;
+	letter-spacing: 7px;
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+
+.motto {
+	padding: 57px;
+	color: #C3C3C3;
+	font-weight: bold;
+	font-size: 18px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+
+}
+
+.time-box {
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    background-color: #fff;
+    transform: translate(-50%, -50%);
+    height: 70px;
+    width: 300px;
+    text-align: center;
+    border-radius: 1px;
+    margin: 0 auto;
+}
+
+.time {
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 20px;
+	letter-spacing: 5px;
+}
